@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "autosellvdm",
+	"name": "AutoSellVDM",
+	"version": "${mod_version}",
+
+	"description": "Standalone Auto Sell + Auto Pay + Auto Reconnect utility with an in-game GUI.",
+	"authors": [
+		"vuducmanh09"
+	],
+
+	"license": "LGPLv3",
+	"icon": "assets/autosellvdm/icon.png",
+
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"net.vdm.autosellvdm.AutoSellVdmClient"
+		]
+	},
+	"mixins": [
+		"autosellvdm.mixins.json"
+	],
+
+	"depends": {
+		"minecraft": "1.21.11",
+		"fabric-api": "*",
+		"fabricloader": ">=0.19.0"
+	}
+}

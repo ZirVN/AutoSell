@@ -1,0 +1,8 @@
+# Danh sách 100 key dạng chữ — chỉ dùng để tra khi bán, KHÔNG BAO GIỜ commit.
+keys.txt
+
+# Gradle
+build/
+.gradle/
+run/
+keys-banhang.md
